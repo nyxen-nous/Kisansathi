@@ -1,0 +1,9 @@
+KisanSaathi local verification results
+Date: 2026-10-18
+
+Backend pytest suite: 133 tests passed in the packaging environment.
+Python compilation: passed (python -m compileall -q app scripts tests).
+Frontend JavaScript syntax: passed (node --check for every frontend/js/*.js file).
+English/Hindi translation check: test suite passed, including frontend string consistency checks.
+
+Interpretation: TinyFish and other external API test paths use mocks/fixtures where defined. This report does not claim a live TinyFish API call, live weather/mandi fetch, fresh model download, model inference, or independent agronomic validation. Refer to VERIFICATION_REPORT.md for the remaining demo-machine checks.
